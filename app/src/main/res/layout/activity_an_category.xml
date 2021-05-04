@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnCategory">
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="167dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="473dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pib" />
+
+    <TextView
+        android:id="@+id/fbcovere"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="382dp"
+        android:text="Facebook Cover"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home" />
+
+    <TextView
+        android:id="@+id/Animated Advertisement"
+        android:layout_width="164dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="214dp"
+        android:text="Animated Advertisement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fbcovere" />
+
+    <TextView
+        android:id="@+id/try"
+        android:layout_width="153dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="59dp"
+        android:text="Company Profile"
+        app:layout_constraintBottom_toTopOf="@+id/checkout"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="90dp"
+        android:text="Check Out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/fbcover"
+        android:layout_width="59dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="63dp"
+        app:layout_constraintBottom_toTopOf="@+id/anad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/curt" />
+
+    <ImageView
+        android:id="@+id/anad"
+        android:layout_width="59dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="136dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/curt" />
+
+    <ImageView
+        android:id="@+id/comp"
+        android:layout_width="59dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/curt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

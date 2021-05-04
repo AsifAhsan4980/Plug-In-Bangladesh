@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "277481142621",
+    "firebase_url": "https://plug-in-bangladesh-b2c59.firebaseio.com",
+    "project_id": "plug-in-bangladesh-b2c59",
+    "storage_bucket": "plug-in-bangladesh-b2c59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277481142621:android:0a974cdd97f82f45ef10b4",
+        "android_client_info": {
+          "package_name": "com.example.pluginbangladesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277481142621-06d2o175fevt49rh8bb32abk4gpja68v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ_at-vIZMf943TLDHSt9JnTwOHmoDMLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277481142621-06d2o175fevt49rh8bb32abk4gpja68v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

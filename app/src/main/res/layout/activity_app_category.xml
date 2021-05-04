@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppCategory">
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="146dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="583dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pib" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="157dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="624dp"
+        android:text="App Category"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/home"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="127dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="492dp"
+        android:text=" Social Media"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="116dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="402dp"
+        android:text="Official"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="119dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="295dp"
+        android:text="Personal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="111dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="192dp"
+        android:text="Food"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <ImageView
+        android:id="@+id/social"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/official"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/curt" />
+
+    <ImageView
+        android:id="@+id/official"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/personal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:srcCompat="@drawable/curt" />
+
+    <ImageView
+        android:id="@+id/personal"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="69dp"
+        app:layout_constraintBottom_toTopOf="@+id/food"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:srcCompat="@drawable/curt" />
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="185dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:srcCompat="@drawable/curt" />
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="143dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="55dp"
+        android:text="Check Out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/food" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

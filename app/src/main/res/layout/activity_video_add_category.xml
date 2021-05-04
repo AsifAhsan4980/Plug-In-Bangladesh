@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoAddCategory">
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="215dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="528dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pib" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="199dp"
+        android:layout_marginBottom="379dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/Vidadd"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="379dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/curt" />
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="159dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="101dp"
+        android:text="Check Out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
